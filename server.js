@@ -42,7 +42,7 @@ wss.on("connection", (ws) => {
 // AUTO SELF-PING (every 5 minutes)
 // ─────────────────────────────────────
 
-const SELF_URL = "https://YOUR-SERVICE-NAME.onrender.com/ping";
+const SELF_URL = "https://chat-lcc.onrender.com";
 
 setInterval(() => {
   https
